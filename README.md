@@ -20,7 +20,8 @@ Once the games are over, the robots will dutifully re-assemble and go back to wo
 
 ## My approach
 In the beginning and because of the perfect input information I thought that going with a heuristic approach would work for this game, but when leagues progressed and the code got complicated more and more I found myself unable to make any improvements.
-Then one of my colleagues suggested using a Genetic algorithm with two populations of individuals (using 30 in size worked perfectly for me) one for me and one for the opponent, and the best 10 individuals will be progressed to the next generation, and the next generation will be played against those best individuals. That way, both my population and the opponent's population will keep improving until I run out of time (50ms)
+
+Then one of my colleagues (Sheeesh--- 👨🏻‍💻) suggested using a Genetic algorithm with two populations of individuals (using 30 in size worked perfectly for me) one for me and one for the opponent, and the best 10 individuals will be progressed to the next generation, and the next generation will be played against those best individuals. That way, both my population and the opponent's population will keep improving until I run out of time (50ms)
 Finally, I play the best individual in my population.
 
 ### My overall ranking
